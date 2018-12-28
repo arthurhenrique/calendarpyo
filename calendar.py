@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+
+import sys
+
 def qtd_dia(dia, mes, ano):
     #VARIAVEIS
     dia_contado = 0
@@ -82,7 +86,7 @@ meses = [31,28,31,30,31,30,31,31,30,31,30,31]
 #ENTRADA
 #dia = 1
 #mes = 1
-ano = 2020
+ano = int(sys.argv[1]) 
  
 #SAIDA
 print ("        ",ano,"        ")
