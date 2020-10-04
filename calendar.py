@@ -9,6 +9,7 @@ def is_leap(year):
         return not year % 4
     return (year % 4 == 0) ^ (year % 100 == 0) ^ (year % 400 == 0)
 
+
 def days_by_month():
     count = 0
     result = dict()
